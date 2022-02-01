@@ -12,7 +12,7 @@ body {
   padding: 0;
 }
 
-/*Navigation Bar*/
+/*1.0 Navigation Bar*/
 header {
   border-bottom: 1px solid seashell;
   height: 69px;
@@ -24,6 +24,8 @@ header {
   top: 0px;
   padding: 9.5px 10px;
   z-index: 1;
+  background-color: black;
+
 }
 header div {
   height: 50px;
@@ -47,5 +49,31 @@ nav a {
 nav a:hover {
   color: rgb(168, 158, 152);
 }
-/*Main Content*/
+
+/*2.0 Main Content*/
+main {
+  width: 1200px;
+  margin-top: 90px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+main img {
+  max-width: 100%;
+}
+
+/*2.1 Missions*/
+#mission {
+  background: url('../images/img-mission-background.jpg') no-repeat;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+#mission div {
+  text-align: center;
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 /*Footer*/
